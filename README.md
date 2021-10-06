@@ -1,2 +1,2 @@
-# Projeto-QI
+# App Compras
 Projeto QI
