@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/colorButtonNormal"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:gravity="center"
+        android:text="Selecione Seus Produtos:"
+        android:textColor="@color/purple_700"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <CheckBox
+        android:id="@+id/checkFeijao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="Feijão - R$ 2,69"
+        android:textSize="16sp"
+        android:textStyle="normal" />
+
+    <CheckBox
+        android:id="@+id/checkLeite"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="Leite - R$ 2,70"
+        android:textSize="16sp" />
+
+    <CheckBox
+        android:id="@+id/checkMacarrao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="Macarrão - R$ 16,70"
+        android:textSize="16sp" />
+
+    <CheckBox
+        android:id="@+id/checkFarofa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="Farofa - R$ 3,38"
+        android:textSize="16sp" />
+
+    <CheckBox
+        android:id="@+id/checkRefrigerante"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="Refrigerante - R$ 3,00"
+        android:textSize="16sp" />
+
+    <CheckBox
+        android:id="@+id/checkBatataFrita"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="Batata-frita - R$ 5,00"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/btTotal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|center_horizontal"
+        android:layout_margin="30dp"
+        android:text="Total"
+        android:textSize="16sp" />
+
+</LinearLayout>
